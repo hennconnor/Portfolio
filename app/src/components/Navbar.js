@@ -11,19 +11,19 @@ const Navbar = () => {
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-white'>
             <img src={Logo} alt='Logo' width='80' height='80' />
             <ul className='hidden md:flex font-mono'>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 first-line:duration-300 p-5 '>
-                    <Link to='home' spy={true} smooth={true} offset={10} duration={500}>Home</Link>
+                <li>
+                    <Link to='home' spy={true} smooth={true} offset={10} duration={500} className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
                 </li>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 '>
-                    <Link to='about' spy={true} smooth={true} offset={-150} duration={500}>About</Link>
+                <li>
+                    <Link to='about' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
                 </li>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5'>
-                    <Link to='skills' spy={true} smooth={true} offset={-150} duration={500}>Skills</Link>
+                <li>
+                    <Link to='skills' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
                 </li>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5'>
-                    <Link to='projects' spy={true} smooth={true} offset={-150} duration={500}>Projects</Link>
+                <li>
+                    <Link to='projects' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
                 </li>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5'>Contact</li>
+                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</li>
             </ul>
 
             <div className='md:hidden'>
