@@ -15,7 +15,7 @@ const Home = () => {
                     <p className='text-4xl ml-[-25px]'>Seattle, Washington 📍</p>
                     <button className='flex justify-center max-w-[200px] max-h-[100px] text-xl border-white border-2 px-2 py-2 my-2'>View About   <BsArrowDownCircle /></button>
                 </div>
-                <img src={PhotoSelf} alt='Self' className='w-[250px] mr-[180px] h-[250px] my-[150px] rounded-full border-2 border-white' />
+                <img src={PhotoSelf} alt='Self' className='w-[200px] mr-[180px] h-[200px] my-[150px] rounded-full border-2 border-white' />
             </div>
 
         </div>
