@@ -6,7 +6,7 @@ import About from './components/About';
 
 function App() {
   return (
-    <div className='overscroll-contain'>
+    <div>
       <Navbar />
       <Home />
       <About />
