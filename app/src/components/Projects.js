@@ -6,16 +6,16 @@ const Projects = () => {
             <div className='text-white flex flex-col w-max-[1000px] mx-[100px] justify-start h-full px-8'>
                 <p className='text-[50px]'>Projects</p>
                 <div className='flex flex-row justify-evenly'>
-                    <div className='bg-[#0a192f] w-80 h-96 shadow-lg shadow-black'>
-                        <p>Project 1</p>
+                    <div className='flex flex-col bg-[#0a192f] w-80 h-96 shadow-lg shadow-black'>
+                        <p className='font-bold'>Project 1</p>
                         <img src={ProjectPic} alt='project 1' />
                         <p>Project Description</p>
-                        <button className='border-2 p-2'>Demo</button>
-                        <button className='border-2 p-2'>Source Code</button>
+                        <button className='border-2 p-2 justify-self-center'>Demo</button>
+                        <button className='border-2 p-2 justify-self-center'>Source Code</button>
                     </div>
 
-                    <div className='bg-[#0a192f] w-80 h-96 shadow-lg shadow-black'>
-                        <p>Project 2</p>
+                    <div className='bg-[#0a192f] flex flex-col w-80 h-96 shadow-lg shadow-black'>
+                        <p className='font-bold'>Project 2</p>
                         <img src={ProjectPic} alt='project 1' />
                         <p>Project Description</p>
                         <button className='border-2 p-2'>Demo</button>

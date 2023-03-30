@@ -1,5 +1,4 @@
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { HiOutlineMail, HiOutlineMailOpen } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/Logo.png';
 import Resume from '../assets/Resume.pdf';
@@ -23,7 +22,9 @@ const Navbar = () => {
                 <li>
                     <Link to='projects' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
                 </li>
-                <li className='hover:bg-[#1c355c] hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</li>
+                <li>
+                    <Link to='contact' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
+                </li>
             </ul>
 
             <div className='md:hidden'>
@@ -43,15 +44,9 @@ const Navbar = () => {
                             Github <FaGithub size={30} />
                         </a>
                     </li>
-                    <li className='bg-red-400 w-[160px] h-[60px] flex justify-between cursor-pointer px-4 items-center ml-[-100px] hover:ml-[-10px] duration-300'>
+                    <li className='bg-red-400 w-[160px] h-[60px] flex justify-between px-4 cursor-pointer items-center ml-[-100px] hover:ml-[-10px] duration-300'>
                         <a className='flex justify-between items-center w-full'
-                            href='' target='_blank' rel="noopener noreferrer">
-                            Email <HiOutlineMail size={30} />
-                        </a>
-                    </li>
-                    <li className='bg-purple-400 w-[160px] h-[60px] flex justify-between px-4 cursor-pointer items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full'
-                            href={Resume} target='_blank'>
+                            href={Resume} target='_blank' rel='noopener noreferrer'>
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>

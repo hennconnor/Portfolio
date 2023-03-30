@@ -15,7 +15,7 @@ const Skills = () => {
                 <p className='text-[50px]'>Skills</p>
                 <>
                     <ul className='flex flex-wrap flex-row justify-center items-center space-x-4 space-y-4'>
-                        <li className='bg-[#0a192f] shadow-lg w-36 h-36 shadow-black px-5 flex flex-col justify-self-center self-center justify-center items-center'>
+                        <li className='bg-[#0a192f] shadow-lg w-36 h-36 shadow-black px-5 flex flex-col justify-center items-center'>
                             <p>JavaScript</p>
                             <img src={JSLogo} alt='JavaScript Logo' height='75px' width='75px' />
                         </li>
