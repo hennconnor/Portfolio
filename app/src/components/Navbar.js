@@ -23,7 +23,7 @@ const Navbar = () => {
                     <Link to='projects' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
                 </li>
                 <li>
-                    <Link to='contact' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
                 </li>
             </ul>
 
