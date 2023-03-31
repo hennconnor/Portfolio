@@ -14,7 +14,7 @@ const Home = () => {
                     <h1 className='text-4xl ml-[-50px]'>Full-Stack Software Engineer</h1>
                     <p className='text-2xl text-gray-400 ml-[10px]'>Based out of</p>
                     <p className='text-4xl ml-[-25px]'>Seattle, Washington 📍</p>
-                    <Link className='self-center justify-self-end' to='about' spy={true} smooth={true} offset={-150} duration={500}><button className='font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2'>View About   <BsArrowDownCircle /></button></Link>
+                    <Link className='self-center justify-self-end font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2 cursor-pointer hover:bg-[#1c355c]' to='about' spy={true} smooth={true} offset={-150} duration={500}>View About   <BsArrowDownCircle /></Link>
                 </div>
                 <img src={PhotoSelf} alt='Self' className='w-[200px] mr-[180px] h-[200px] my-[150px] rounded-full border-2' />
             </div>

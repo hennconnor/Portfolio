@@ -15,7 +15,7 @@ const About = () => {
                     I find the process of everyday surpassing new challenges incredibly rewarding.
                     I look forward to the future challenges and opportunities of growth this field will present and feel excited about both contributing to a new company, as well as my future personal development.
                 </p>
-                <Link className='self-center' to='skills' spy={true} smooth={true} offset={-150} duration={500}><button className='flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2'>View Skills<BsArrowDownCircle /></button></Link>
+                <Link className='self-center justify-self-end font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2 cursor-pointer hover:bg-[#1c355c]' to='skills' spy={true} smooth={true} offset={-150} duration={500}>View Skills<BsArrowDownCircle /></Link>
             </div >
 
 
