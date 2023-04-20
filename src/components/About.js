@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 const About = () => {
     return (
         <div name='about' className="bg-[#0d1e39] w-full h-screen font-mono">
-            <div className='text-white flex flex-col w-max-[1000px] mx-[100px] justify-start h-full px-8'>
+            <div className='text-white flex flex-col w-max-[1000px] mx-[100px] justify-start px-8'>
                 <h1 className='text-[50px]'>About</h1>
                 <p className=''>
                     Hello, my name is Connor. I' m a full stack software engineer from Seattle, WA.

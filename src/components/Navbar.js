@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className='w-full h-[80px] fixed flex justify-between items-center px-4 bg-[#0a192f] text-white'>
             <img src={Logo} alt='Logo' width='80' height='80' />
-            <ul className='hidden md:flex font-mono'>
+            <ul className='hidden md:flex font-mono overflow-hidden'>
                 <li>
                     <Link to='home' spy={true} smooth={true} offset={10} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
                 </li>

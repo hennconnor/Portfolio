@@ -6,7 +6,7 @@ import { BsArrowDownCircle } from 'react-icons/bs';
 const Projects = () => {
     return (
         <div name='projects' className="bg-[#0d1e39] w-full h-screen">
-            <div className='text-white flex flex-col w-max-[1000px] mx-[100px] justify-start h-full px-8'>
+            <div className='text-white flex flex-col w-max-[1000px] mx-[100px] justify-start p-8'>
                 <p className='text-[50px]'>Projects</p>
                 <div className='flex flex-row justify-evenly'>
                     <div className='flex flex-col bg-[#0a192f] w-80 h-96 shadow-lg shadow-black'>
