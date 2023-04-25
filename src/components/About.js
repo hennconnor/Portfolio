@@ -6,7 +6,7 @@ const About = () => {
         <div name='about' className="bg-[#0d1e39] w-full h-screen font-mono">
             <div className='text-white flex flex-col w-max-[1000px] mx-24 justify-start px-8'>
                 <h1 className='text-5xl'>About</h1>
-                <p className=''>
+                <p className='text-l'>
                     Hello, my name is Connor. I' m a full stack software engineer from Seattle, WA.
                     I am experienced with JavaScript, React, Ruby, Rails, HTML and CSS.
                     Past experiences, pre-coding include experience working in Banking as well as the Hospitality sector.
