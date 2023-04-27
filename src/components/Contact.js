@@ -9,7 +9,7 @@ const Contact = () => {
     }
 
     return (
-        <div name='contact' className="bg-[#0d1e39] w-full h-screen flex flex-col text-white justify-center items-center">
+        <div name='contact' className="bg-[#0d1e39] flex flex-col text-white justify-center items-center">
             <h1 className='text-5xl'>Contact</h1>
             <p className='my-2'>Submit the form to send me a message</p>
             <form ref={myRef} className='flex flex-col justify-evenly max-w-[600px] w-full text-black' action='https://getform.io/f/cb6288aa-aa41-4da0-a612-e3f677d74712' method="POST">
