@@ -1,6 +1,3 @@
-import { BsArrowDownCircle } from 'react-icons/bs';
-import { Link } from 'react-scroll';
-
 import JSLogo from '../assets/Icons/JS.png';
 import CSSLogo from '../assets/Icons/CSS.png';
 import HTMLLogo from '../assets/Icons/html.png';
@@ -39,7 +36,6 @@ const Skills = () => {
                         <img src={GitLogo} alt='Git Logo' height='75px' width='75px' />
                     </li>
                 </ul>
-                <Link className='self-center justify-self-end font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2 cursor-pointer hover:bg-[#1c355c]' to='projects' spy={true} smooth={true} offset={-150} duration={500} >View Projects<BsArrowDownCircle /></Link>
             </div>
 
         </div>

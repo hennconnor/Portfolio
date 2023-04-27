@@ -1,9 +1,6 @@
 import ProjectPic from '../assets/Project1.jpeg';
 import PlusExpPic from '../assets/PlusExp.png';
 
-import { Link } from 'react-scroll';
-import { BsArrowDownCircle } from 'react-icons/bs';
-
 const Projects = () => {
     return (
         <div name='projects' className="bg-[#0d1e39]">
@@ -26,7 +23,6 @@ const Projects = () => {
                         <a className='self-center justify-self-center border-2 p-3' href='https://github.com/hennconnor/PlusExp' target='_blank' rel='noopener noreferrer'>Source Code</a>
                     </div>
                 </div>
-                <Link className='self-center justify-self-end font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2 cursor-pointer hover:bg-[#1c355c]' to='contact' spy={true} smooth={true} offset={100} duration={500} >Contact Me<BsArrowDownCircle /></Link>
             </div>
 
         </div>

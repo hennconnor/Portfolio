@@ -1,6 +1,4 @@
-import { BsArrowDownCircle } from 'react-icons/bs';
 import PhotoSelf from '../assets/Self-Portrait.jpeg';
-import { Link } from 'react-scroll';
 
 const Home = () => {
     return (
@@ -14,7 +12,6 @@ const Home = () => {
                     <h1 className='text-4xl'>Full-Stack Software Engineer</h1>
                     <p className='text-2xl text-gray-400'>Based out of</p>
                     <p className='text-4xl'>Seattle, Washington 📍</p>
-                    <Link className='self-center justify-self-end font-mono flex items-center max-w-[200px] max-h-[100px] text-xl border-2 px-2 py-2 my-2 cursor-pointer hover:bg-[#1c355c]' to='about' spy={true} smooth={true} offset={-150} duration={500}>View About   <BsArrowDownCircle /></Link>
                 </div>
                 <img src={PhotoSelf} alt='Self' className='w-[33%] max-w-[250px] max-h-[250px] rounded-full border-2' />
             </div>
