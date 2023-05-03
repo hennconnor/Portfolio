@@ -21,16 +21,16 @@ const Navbar = () => {
                     <Link to='home' spy={true} smooth={true} offset={100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
                 </li>
                 <li>
-                    <Link to='about' spy={true} smooth={true} offset={-400} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
+                    <Link to='about' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
                 </li>
                 <li>
-                    <Link to='skills' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
+                    <Link to='skills' spy={true} smooth={true} offset={-250} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
                 </li>
                 <li>
-                    <Link to='projects' spy={true} smooth={true} offset={-100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
+                    <Link to='projects' spy={true} smooth={true} offset={-75} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
                 </li>
                 <li>
-                    <Link to='contact' spy={true} smooth={true} offset={-200} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
                 </li>
             </ul>
 
