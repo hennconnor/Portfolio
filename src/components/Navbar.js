@@ -14,7 +14,7 @@ const Navbar = () => {
         setNav(!nav);
     }
     return (
-        <div className='w-full h-[80px] fixed flex justify-between items-center px-4 bg-[#0a192f] text-white'>
+        <div className='w-full h-[80px] fixed flex justify-between items-center px-4 bg-[#0a192f]'>
             <img src={Logo} alt='Logo' width='80' height='80' />
             <ul className='hidden md:flex font-mono overflow-hidden'>
                 <li>

@@ -1,17 +1,15 @@
 const About = () => {
     return (
-        <div name='about' className="bg-[#0d1e39] font-mono">
-            <div className='text-white flex flex-col w-max-[1000px] mx-24 justify-start px-8'>
-                <h1 className='text-5xl'>About</h1>
-                <p className='text-l min-w-[250px]'>
-                    Hello, my name is Connor. I'm a full stack software engineer from Seattle, WA.
-                    I am experienced with JavaScript, React, Ruby, Rails, HTML and CSS.
-                    Past experiences, pre-coding include experience working in Banking as well as the Hospitality sector.
+        <div name='about' className="bg-[#0d1e39] mb-64">
+            <div className='text-white flex flex-col mx-24 justify-center items-center px-8'>
+                <h1 className='text-5xl mb-10'>About</h1>
+                <div className='text-lg min-w-[300px] max-w-[800px] text-center'>
+                    Hi, my name is Connor. I am a full stack software engineer looking to get into the professional world of coding.
+                    I am well-versed in JavaScript, React, Ruby, Rails, HTML and CSS.
+                    Currently, I am working on projects to further develop my skills, as well as learning C++.
                     In my free time, I enjoy making music, socializing and going to the gym.
-                    I love how coding feels like a never ending journey, with always a new mountain or obstacle to overcome.
-                    I find the process of everyday surpassing new challenges incredibly rewarding.
-                    I look forward to the future challenges and opportunities of growth this field will present and feel excited about both contributing to a new company, as well as my future personal development.
-                </p>
+                    Follow me on my coding journey.
+                </div>
             </div >
 
 
