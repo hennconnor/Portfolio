@@ -18,19 +18,19 @@ const Navbar = () => {
             <img src={Logo} alt='Logo' width='80' height='80' />
             <ul className='hidden md:flex font-mono overflow-hidden'>
                 <li>
-                    <Link to='home' spy={true} smooth={true} offset={10} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
+                    <Link to='home' spy={true} smooth={true} offset={100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
                 </li>
                 <li>
-                    <Link to='about' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
+                    <Link to='about' spy={true} smooth={true} offset={-400} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
                 </li>
                 <li>
-                    <Link to='skills' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
+                    <Link to='skills' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
                 </li>
                 <li>
-                    <Link to='projects' spy={true} smooth={true} offset={-150} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
+                    <Link to='projects' spy={true} smooth={true} offset={-100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
                 </li>
                 <li>
-                    <Link to='contact' spy={true} smooth={true} offset={100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-200} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
                 </li>
             </ul>
 
@@ -41,19 +41,19 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
-                    <Link to='home' spy={true} smooth={true} offset={10} duration={500} onClick={handleClick}>Home</Link>
+                    <Link to='home' spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Home</Link>
                 </li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
                     <Link to='about' spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick}>About</Link>
                 </li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
-                    <Link to='skills' spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick}>Skills</Link>
+                    <Link to='skills' spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick}>Skills</Link>
                 </li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
-                    <Link to='projects' spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick}>Projects</Link>
+                    <Link to='projects' spy={true} smooth={true} offset={-75} duration={500} onClick={handleClick}>Projects</Link>
                 </li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
-                    <Link to='contact' spy={true} smooth={true} offset={100} duration={500} onClick={handleClick}>Contact</Link>
+                    <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} onClick={handleClick}>Contact</Link>
                 </li>
             </ul>
 
