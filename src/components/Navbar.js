@@ -18,7 +18,7 @@ const Navbar = () => {
             <img src={Logo} alt='Logo' width='80' height='80' />
             <ul className='hidden md:flex font-mono overflow-hidden'>
                 <li>
-                    <Link to='home' spy={true} smooth={true} offset={100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
+                    <Link to='home' spy={true} smooth={true} offset={0} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
                 </li>
                 <li>
                     <Link to='about' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
@@ -41,7 +41,7 @@ const Navbar = () => {
             {/* Mobile Menu */}
             <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
-                    <Link to='home' spy={true} smooth={true} offset={50} duration={500} onClick={handleClick}>Home</Link>
+                    <Link to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick}>Home</Link>
                 </li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
                     <Link to='about' spy={true} smooth={true} offset={-150} duration={500} onClick={handleClick}>About</Link>

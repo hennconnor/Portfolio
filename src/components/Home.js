@@ -3,7 +3,7 @@ import PhotoSelf from '../assets/Self-Portrait.jpeg';
 const Home = () => {
     return (
         <div name='home'>
-            <div className='max-w-[1000px] mb-64 mt-[90px] h-screen mx-auto flex-row flex justify-content justify-items-center items-center px-8'>
+            <div className='max-w-[1000px] mb-64 mt-[70px] h-screen mx-auto flex-row flex justify-content justify-items-center items-center px-8'>
                 <div className='mx-auto px-2  flex flex-col justify-center justify-items-center items-center h-full'>
                     <h1 className='lg:text-8xl text-6xl'>Hello!</h1>
                     <p className='lg:text-2xl text-xl text-gray-400'>My name is </p>
