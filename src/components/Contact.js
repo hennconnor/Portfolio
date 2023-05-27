@@ -17,8 +17,8 @@ const Contact = () => {
                     <input className='p-2' type='text' placeholder='Name' name='name' required></input>
                     <input className='my-2 p-2' type='email' placeholder='Email' name='email' required></input>
                     <input type="hidden" name="_gotcha"></input>
-                    <textarea className='p-2' placeholder="Message" rows='7' type='text' name='message' required></textarea>
-                    <button className='my-2 p-2 border-2 text-white' type='submit' onSubmit={resetForm}>Send Message</button>
+                    <textarea className='p-2 mb-1' placeholder="Message" rows='7' type='text' name='message' required></textarea>
+                    <button className='my-2 p-2 border-2 text-white hover:shadow-zinc-400 hover:shadow-md duration-150' type='submit' onSubmit={resetForm}>Send Message</button>
                 </form>
             </div>
         </div >
