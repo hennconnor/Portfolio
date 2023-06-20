@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee37b29b.css",
-    "main.js": "/static/js/main.7c959da5.js",
+    "main.css": "/static/css/main.1cd52e52.css",
+    "main.js": "/static/js/main.560449ae.js",
     "static/media/PlusExp.png": "/static/media/PlusExp.e910201b3d1c1af89423.png",
     "static/media/Self-Portrait.jpeg": "/static/media/Self-Portrait.f5cc124becf5c69f73fa.jpeg",
     "static/media/html.png": "/static/media/html.1d7b133e22ffe4829da6.png",
+    "static/media/Tailwind.png": "/static/media/Tailwind.9c2e5bcf4f97d73e438e.png",
     "static/media/Resume.pdf": "/static/media/Resume.45fb679902d62e1809ce.pdf",
     "static/media/CSS.png": "/static/media/CSS.9f33c557b92e4e2e1cc8.png",
     "static/media/Logo.png": "/static/media/Logo.000de98611ef4013faab.png",
     "static/media/JS.png": "/static/media/JS.a2a16f087e18d50f3d99.png",
     "static/media/React.png": "/static/media/React.20adfb35ae6a6e5817bf.png",
+    "static/media/Typescript.png": "/static/media/Typescript.27d81a586e4448a5e671.png",
     "static/media/Rails.png": "/static/media/Rails.c87f032e560c7a8da82c.png",
     "static/media/git.png": "/static/media/git.987334e9f782cc505f25.png",
     "index.html": "/index.html",
-    "main.ee37b29b.css.map": "/static/css/main.ee37b29b.css.map",
-    "main.7c959da5.js.map": "/static/js/main.7c959da5.js.map"
+    "main.1cd52e52.css.map": "/static/css/main.1cd52e52.css.map",
+    "main.560449ae.js.map": "/static/js/main.560449ae.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee37b29b.css",
-    "static/js/main.7c959da5.js"
+    "static/css/main.1cd52e52.css",
+    "static/js/main.560449ae.js"
   ]
 }
