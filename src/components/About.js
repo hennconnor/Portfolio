@@ -3,7 +3,7 @@ const About = () => {
         <div name='about' className='mb-64'>
             <div className='text-white flex flex-col mx-24 justify-center items-center px-8'>
                 <h1 className='text-5xl mb-10'>About</h1>
-                <div className='text-lg min-w-[300px] max-w-[800px] text-center'>
+                <div className='text-lg min-w-[300px] max-w-[680px] text-center'>
                     Hi, my name is Connor. I am a full stack software engineer looking to get into the professional world of coding.
                     I am well-versed in JavaScript, React, Ruby, Rails, HTML and CSS.
                     Currently, I am working on projects to further develop my skills, as well as learning C++.
