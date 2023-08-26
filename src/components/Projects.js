@@ -3,7 +3,7 @@ import PlusExpPic from '../assets/PlusExp.png';
 const Projects = () => {
     return (
         <div name='projects' className='mb-64'>
-            <div className='flex flex-col justify-center items-center p-8'>
+            <div className='flex flex-col justify-center items-center p-8 font-inter'>
                 <p className='text-5xl mb-5'>Projects</p>
                 <div className='flex flex-wrap justify-evenly'>
 

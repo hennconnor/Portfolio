@@ -9,7 +9,7 @@ const Contact = () => {
     }
 
     return (
-        <div name='contact' className="flex flex-col justify-center items-center mb-20">
+        <div name='contact' className="flex flex-col justify-center items-center mb-20 font-inter">
             <p className='text-5xl mb-5'>Contact</p>
             <div className='flex flex-col justify-center items-center w-[85%] max-w-[400px] bg-[#0a192f] shadow-black shadow-lg p-10'>
                 <h1 className='text-3xl mb-5 text-center'>Send me a Message</h1>

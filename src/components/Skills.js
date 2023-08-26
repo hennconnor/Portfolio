@@ -12,7 +12,7 @@ const Skills = () => {
     return (
         <div name='skills'>
             <div className='flex flex-col justify-center items-center mb-64'>
-                <p className='text-5xl mb-5'>Skills</p>
+                <p className='text-5xl mb-5 font-inter'>Skills</p>
                 <ul className='flex flex-row flex-wrap justify-center items-center font-mono max-w-[680px]'>
                     <li className='bg-[#0a192f] w-36 h-36 shadow-lg shadow-black flex flex-col justify-center items-center mx-2 my-2'>
                         <p>JavaScript</p>
