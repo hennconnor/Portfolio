@@ -14,28 +14,30 @@ const Navbar = () => {
         setNav(!nav);
     }
     return (
-        <div className='w-full h-[80px] fixed flex justify-between items-center px-4 bg-[#0a192f]'>
-            <img src={Logo} alt='Logo' width='80' height='80' />
-            <ul className='hidden md:flex font-mono overflow-hidden'>
-                <li>
-                    <Link to='home' spy={true} smooth={true} offset={0} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Home</Link>
-                </li>
-                <li>
-                    <Link to='about' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>About</Link>
-                </li>
-                <li>
-                    <Link to='skills' spy={true} smooth={true} offset={-250} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Skills</Link>
-                </li>
-                <li>
-                    <Link to='projects' spy={true} smooth={true} offset={-75} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Projects</Link>
-                </li>
-                <li>
-                    <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} className='hover:bg-[#1c355c] cursor-pointer hover:underline underline-offset-4 duration-300 p-5 flex justify-center'>Contact</Link>
-                </li>
-            </ul>
+        <div >
+            <div className='text-white w-full h-[80px] fixed flex justify-between items-center px-4 bg-[rgba(0,0,0,0.3)]'>
+                <img src={Logo} alt='Logo' width='80' height='80' />
+                <ul className='hidden md:flex font-mono overflow-hidden divide-x-[1px] divide-[rgba(255,255,255,.4)]'>
+                    <li>
+                        <Link to='home' spy={true} smooth={true} offset={0} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 p-5 flex justify-center'>Home</Link>
+                    </li>
+                    <li>
+                        <Link to='about' spy={true} smooth={true} offset={-300} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 p-5 flex justify-center'>About</Link>
+                    </li>
+                    <li>
+                        <Link to='skills' spy={true} smooth={true} offset={-250} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 p-5 flex justify-center'>Skills</Link>
+                    </li>
+                    <li>
+                        <Link to='projects' spy={true} smooth={true} offset={-75} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 p-5 flex justify-center'>Projects</Link>
+                    </li>
+                    <li>
+                        <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 p-5 flex justify-center'>Contact</Link>
+                    </li>
+                </ul>
 
-            <div className='md:hidden cursor-pointer z-10'>
-                {nav ? <FaTimes onClick={handleClick} /> : <FaBars onClick={handleClick} />}
+                <div className='md:hidden cursor-pointer z-10'>
+                    {nav ? <FaTimes onClick={handleClick} /> : <FaBars onClick={handleClick} />}
+                </div>
             </div>
 
             {/* Mobile Menu */}
@@ -57,29 +59,29 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
-                <ul>
-                    <li className="bg-blue-400 w-[160px] h-[60px] flex justify-between cursor-pointer items-center ml-[-100px] px-4 hover:ml-[-10px] duration-300">
-                        <a className='flex justify-between items-center w-full'
+            <div className='hidden lg:flex fixed flex-col top-[35%] left-0 text-white'>
+                <ul className='divide-y-[1px] divide-[rgba(255,255,255,.2)]'>
+                    <li className="bg-[rgba(0,0,0,.2)] w-[60px] h-[60px] flex justify-center items-center cursor-pointer px-4 hover:bg-[rgba(0,0,0,.3)]">
+                        <a
                             href="https://www.linkedin.com/in/connor-henn/" target='_blank' rel="noopener noreferrer">
-                            Linkedin <FaLinkedin size={30} />
+                            <FaLinkedin size={30} />
                         </a>
                     </li>
-                    <li className='bg-green-400 w-[160px] h-[60px] flex justify-between cursor-pointer items-center ml-[-100px] px-4 hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full'
+                    <li className='h-[60px] w-[60px] bg-[rgba(0,0,0,.2)] hover:bg-[rgba(0,0,0,.3)] cursor-pointer flex justify-center items-center'>
+                        <a
                             href='https://github.com/hennconnor' target='_blank' rel="noopener noreferrer">
-                            Github <FaGithub size={30} />
+                            <FaGithub size={40} />
                         </a>
                     </li>
-                    <li className='bg-red-400 w-[160px] h-[60px] flex justify-between px-4 cursor-pointer items-center ml-[-100px] hover:ml-[-10px] duration-300'>
-                        <a className='flex justify-between items-center w-full'
+                    <li className="bg-[rgba(0,0,0,.2)] w-[60px] h-[60px] hover:bg-[rgba(0,0,0,.3)] flex justify-center items-center cursor-pointer px-4">
+                        <a
                             href={Resume} target='_blank' rel='noopener noreferrer'>
-                            Resume <BsFillPersonLinesFill size={30} />
+                            <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

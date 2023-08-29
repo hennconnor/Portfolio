@@ -8,7 +8,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className='flex flex-col min-w-[375px] text-white'>
+    <div className='flex flex-col min-w-[375px] text-black'>
       <Navbar />
       <Home />
       <About />
