@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.25ea90a0.css",
-    "main.js": "/static/js/main.50e1150e.js",
+    "main.css": "/static/css/main.c0041864.css",
+    "main.js": "/static/js/main.239a0ce2.js",
     "static/media/PlusExp.png": "/static/media/PlusExp.e910201b3d1c1af89423.png",
     "static/media/Self-Portrait.jpeg": "/static/media/Self-Portrait.f5cc124becf5c69f73fa.jpeg",
     "static/media/html.png": "/static/media/html.1d7b133e22ffe4829da6.png",
@@ -13,13 +13,12 @@
     "static/media/React.png": "/static/media/React.20adfb35ae6a6e5817bf.png",
     "static/media/Typescript.png": "/static/media/Typescript.27d81a586e4448a5e671.png",
     "static/media/Rails.png": "/static/media/Rails.c87f032e560c7a8da82c.png",
-    "static/media/git.png": "/static/media/git.987334e9f782cc505f25.png",
     "index.html": "/index.html",
-    "main.25ea90a0.css.map": "/static/css/main.25ea90a0.css.map",
-    "main.50e1150e.js.map": "/static/js/main.50e1150e.js.map"
+    "main.c0041864.css.map": "/static/css/main.c0041864.css.map",
+    "main.239a0ce2.js.map": "/static/js/main.239a0ce2.js.map"
   },
   "entrypoints": [
-    "static/css/main.25ea90a0.css",
-    "static/js/main.50e1150e.js"
+    "static/css/main.c0041864.css",
+    "static/js/main.239a0ce2.js"
   ]
 }
