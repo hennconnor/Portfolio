@@ -41,7 +41,8 @@ const Navbar = () => {
             </div >
 
             {/* Mobile Menu */}
-            < ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+            < ul className={!nav ? 'hidden' : 'fixed overflow-hidden top-0 left-0 w-[100vw] h-[100vh] bg-[#4feac2] flex flex-col justify-center text-white items-center'}>
+                <li><FaTimes size={20} className='absolute top-0 right-0 m-5 cursor-pointer' onClick={handleClick} /></li>
                 <li className='py-6 text-4xl cursor-pointer hover:underline'>
                     <Link to='home' spy={true} smooth={true} offset={0} duration={500} onClick={handleClick}>Home</Link>
                 </li>
