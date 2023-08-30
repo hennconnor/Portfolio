@@ -7,6 +7,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
+
+  // const observer = new IntersectionObserver()
   return (
     <div className='flex flex-col min-w-[375px] text-black'>
       <Navbar />

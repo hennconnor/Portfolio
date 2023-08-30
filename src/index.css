@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 html {
     background: linear-gradient(270deg, #4feac2, #49e3dd, #88a7f3, #4bf084);
     background-size: 800% 800%;

@@ -11,7 +11,19 @@ module.exports = {
         '4xl': 'clamp(.5rem, 3vw + 1rem, 2.25rem)',
         '2xl': 'clamp(.025rem, 3vw + 1rem, 1.5rem)'
 
-      }
+      },
+      keyframes: {
+        fadein: {
+          '0%': {
+            opacity: 0,
+            transform: 'translateY(-10px)'
+          },
+          '100%': {
+            opacity: 1,
+            transform: 'translateY(0px)'
+          }
+        }
+      },
     },
     plugins: [],
   }
