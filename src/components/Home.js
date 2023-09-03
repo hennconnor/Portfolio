@@ -13,7 +13,7 @@ const Home = () => {
                     <p className='text-2xl'>Based out of</p>
                     <p className='text-4xl text-center'>Seattle, Washington 📍</p>
                 </div>
-                <img src={PhotoSelf} alt='Self' className='w-[40%] max-w-[200px] max-h-[200px] rounded-full border-2 border-white' />
+                <img src={PhotoSelf} alt='Self' className='w-[40%] max-w-[225px] max-h-[225px] min-w-[180px] min-h-[180px] rounded-full border-2 border-white' />
             </div>
 
         </div>
