@@ -12,8 +12,8 @@ const Skills = () => {
     return (
         <div name='skills'>
             <div className='flex flex-col justify-center items-center mb-64'>
-                <p className='text-5xl mb-5 font-poppins underline underline-offset-2 text-white'>Skills</p>
-                <ul className='flex flex-row flex-wrap justify-center items-center font-mono max-w-[680px]'>
+                <p className='text-5xl mb-10 underline underline-offset-2 text-white'>Skills</p>
+                <ul className='flex flex-row flex-wrap justify-center items-center font-mono max-w-[680px] text-black'>
                     <li className='bg-white rounded-md border-2 border-gray-500 w-36 h-36 shadow-lg shadow-black flex flex-col justify-center items-center mx-2 my-2'>
                         <p>JavaScript</p>
                         <img src={JSLogo} alt='JavaScript Logo' height='50px' width='60px' />
@@ -38,7 +38,7 @@ const Skills = () => {
                         <p>Typescript</p>
                         <img src={TypescriptLogo} alt='Typescript Logo' height='75px' width='75px' />
                     </li>
-                    <li className='bg-white rounded-md border-2 border-gray-500 shadow-lg shadow-black w-36 h-36 flex flex-col justify-center items-center mx-2 my-2'>
+                    <li className='bg-white rounded-md border-2 border-gray-500 shadow-lg shadow-black w-36 h-36 flex flex-col justify-center items-center m-2'>
                         <p>Ruby on Rails</p>
                         <img src={RailsLogo} alt='Rails Logo' height='75px' width='75px' />
                     </li>

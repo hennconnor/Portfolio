@@ -10,7 +10,7 @@ function App() {
 
   // const observer = new IntersectionObserver()
   return (
-    <div className='flex flex-col min-w-[375px] text-black'>
+    <div className='flex flex-col font-poppins text-white'>
       <Navbar />
       <Home />
       <About />
