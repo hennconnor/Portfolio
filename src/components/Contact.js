@@ -12,7 +12,7 @@ const Contact = () => {
     return (
         <div name='contact' className="flex flex-col justify-center items-center mb-20 font-poppins">
 
-            <div className=' text-black flex flex-col justify-center items-center w-full max-w-[450px] bg-white rounded-md border-2 border-gray-500 shadow-black shadow-lg  p-5'>
+            <div className=' text-black flex flex-col justify-center items-center w-11/12 max-w-[700px] bg-white rounded-md border-2 border-gray-500 shadow-black shadow-lg  p-5'>
                 <h1 className='text-3xl text-center'>Let's Connect!</h1>
                 <div className='flex justify-center items-center bg-gray-200 rounded-full w-[100px] h-[100px] text-black m-2'><FaEnvelope size={40} /></div>
                 <form ref={myRef} className='flex flex-col w-full p-2 text-black' action='https://getform.io/f/cb6288aa-aa41-4da0-a612-e3f677d74712' method="POST">
