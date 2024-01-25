@@ -11,7 +11,7 @@ const Contact = () => {
 
     return (
         <div name='contact' className="flex flex-col justify-center items-center mb-20 font-poppins">
-
+            <p className=' text-white text-5xl mb-10 underline underline-offset-2'>Contact</p>
             <div className=' text-black flex flex-col justify-center items-center w-11/12 max-w-[700px] bg-white rounded-md border-2 border-gray-500 shadow-black shadow-lg  p-5'>
                 <h1 className='text-3xl text-center'>Let's Connect!</h1>
                 <div className='flex justify-center items-center bg-gray-200 rounded-full w-[100px] h-[100px] text-black m-2'><FaEnvelope size={40} /></div>
