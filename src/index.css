@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+*,
+*:before,
+*:after {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -62,4 +64,16 @@ html {
 
 .shade {
     text-shadow: 1px 1px 2px black;
+}
+
+.skill__card {
+    @apply bg-white rounded-md border-2 border-gray-500 w-36 h-36 shadow-lg shadow-black flex flex-col justify-center items-center mx-2 my-2;
+}
+
+.project__card {
+    @apply bg-white w-11/12 rounded-md border-2 border-gray-500 shadow-lg shadow-black p-3 flex flex-col max-w-[450px];
+}
+
+.project__card-btn {
+    @apply border-2 text-center p-3 mx-10 hover:bg-gray-100 hover:rounded-md duration-75;
 }

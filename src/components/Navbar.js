@@ -24,7 +24,7 @@ const Navbar = () => {
                 <img src={Logo} alt='Logo' width='80' height='80' />
                 <ul className='hidden md:flex font-mono overflow-hidden divide-x-[1px] divide-[rgba(255,255,255,.4)]'>
                     <li>
-                        <Link to='home' spy={true} smooth={true} offset={-200} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 flex h-[80px] px-5 justify-center items-center'>Home</Link>
+                        <Link to='home' spy={true} smooth={true} offset={-200} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 h-[80px] px-5 items-center flex justify-center'>Home</Link>
                     </li>
                     <li>
                         <Link to='about' spy={true} smooth={true} offset={-200} duration={500} className='hover:bg-[rgba(0,0,0,0.2)] cursor-pointer hover:underline underline-offset-4 h-[80px] px-5 items-center flex justify-center'>About</Link>
